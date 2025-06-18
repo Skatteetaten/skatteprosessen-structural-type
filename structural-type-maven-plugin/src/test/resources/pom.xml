@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>no.skatteetaten.fastsetting.formueinntekt.felles.structuraltype</groupId>
+    <groupId>codes.rafael.structuraltype</groupId>
     <artifactId>structural-type-sample</artifactId>
-    <version>0-SNAPSHOT</version>
+    <version>1.11-SNAPSHOT</version>
 
     <properties>
         <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
@@ -13,9 +13,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>no.skatteetaten.fastsetting.formueinntekt.felles.structuraltype</groupId>
+            <groupId>codes.rafael.structuraltype</groupId>
             <artifactId>structural-type-api</artifactId>
-            <version>0-SNAPSHOT</version>
+            <version>1.11-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
@@ -34,9 +34,9 @@
         </pluginManagement>
         <plugins>
             <plugin>
-                <groupId>no.skatteetaten.fastsetting.formueinntekt.felles.structuraltype</groupId>
+                <groupId>codes.rafael.structuraltype</groupId>
                 <artifactId>structural-type-maven-plugin</artifactId>
-                <version>0-SNAPSHOT</version>
+                <version>1.11-SNAPSHOT</version>
                 <configuration>
                     <definitions>
                         <definition>

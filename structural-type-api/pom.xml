@@ -3,12 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
-    <groupId>no.skatteetaten.fastsetting.formueinntekt.felles.structuraltype</groupId>
+    <groupId>codes.rafael.structuraltype</groupId>
     <artifactId>structural-type</artifactId>
-    <version>0-SNAPSHOT</version>
+    <version>1.11-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
+  <name>Structural types for Java (API)</name>
   <artifactId>structural-type-api</artifactId>
 
 </project>

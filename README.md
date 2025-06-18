@@ -411,7 +411,7 @@ Structural types can be created within a project's build using the *structural-t
 <build>
   <plugins>
     <plugin>
-      <groupId>no.skatteetaten.fastsetting.formueinntekt.felles.structuraltype</groupId>
+      <groupId>codes.rafael.structuraltype</groupId>
       <artifactId>structural-type-maven-plugin</artifactId>
       <version>LATEST</version>
       <executions>
