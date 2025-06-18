@@ -6,7 +6,7 @@
     <parent>
         <groupId>codes.rafael.structuraltype</groupId>
         <artifactId>structural-type</artifactId>
-        <version>1.11-SNAPSHOT</version>
+        <version>1.11</version>
     </parent>
 
     <name>Structural types for Java (Jackson API)</name>

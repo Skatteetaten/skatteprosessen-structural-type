@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>codes.rafael.structuraltype</groupId>
     <artifactId>structural-type</artifactId>
-    <version>1.11-SNAPSHOT</version>
+    <version>1.11</version>
     <packaging>pom</packaging>
     <properties>
         <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>

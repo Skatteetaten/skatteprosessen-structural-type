@@ -5,7 +5,7 @@
 
     <groupId>codes.rafael.structuraltype</groupId>
     <artifactId>structural-type-sample</artifactId>
-    <version>1.11-SNAPSHOT</version>
+    <version>1.11</version>
 
     <properties>
         <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
@@ -15,7 +15,7 @@
         <dependency>
             <groupId>codes.rafael.structuraltype</groupId>
             <artifactId>structural-type-api</artifactId>
-            <version>1.11-SNAPSHOT</version>
+            <version>1.11</version>
         </dependency>
     </dependencies>
 
@@ -36,7 +36,7 @@
             <plugin>
                 <groupId>codes.rafael.structuraltype</groupId>
                 <artifactId>structural-type-maven-plugin</artifactId>
-                <version>1.11-SNAPSHOT</version>
+                <version>1.11</version>
                 <configuration>
                     <definitions>
                         <definition>
