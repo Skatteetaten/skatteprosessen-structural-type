@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>no.skatteetaten.fastsetting.formueinntekt.felles.structuraltype</groupId>
+    <artifactId>structural-type-sample</artifactId>
+    <version>0-SNAPSHOT</version>
+
+    <properties>
+        <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>no.skatteetaten.fastsetting.formueinntekt.felles.structuraltype</groupId>
+            <artifactId>structural-type-api</artifactId>
+            <version>0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.8.1</version>
+                    <configuration>
+                        <release>11</release>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>no.skatteetaten.fastsetting.formueinntekt.felles.structuraltype</groupId>
+                <artifactId>structural-type-maven-plugin</artifactId>
+                <version>0-SNAPSHOT</version>
+                <configuration>
+                    <definitions>
+                        <definition>
+                            <types>
+                                <type>no.skatteetaten.fastsetting.formueinntekt.felles.structuraltype.mavenplugin.sample.SampleTypedLeafFoo</type>
+                                <type>no.skatteetaten.fastsetting.formueinntekt.felles.structuraltype.mavenplugin.sample.SampleTypedLeafBar</type>
+                            </types>
+                        </definition>
+                    </definitions>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>structural-type</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
